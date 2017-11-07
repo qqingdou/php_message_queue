@@ -29,7 +29,6 @@ require_once "System/Daemon.php";
 
 // Bare minimum setup
 System_Daemon::setOption("appName", $name_space);
-System_Daemon::setOption("authorEmail", "3004997586@qq.com");
 System_Daemon::setOption("usePEAR", false);
 
 //System_Daemon::setOption("appDir", dirname(__FILE__));
